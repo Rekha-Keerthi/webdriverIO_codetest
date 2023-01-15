@@ -1,0 +1,75 @@
+{
+  "start": "2023-01-15T09:15:19.117Z",
+  "end": "2023-01-15T09:15:26.866Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "109.0.5414.75",
+    "chrome": {
+      "chromedriverVersion": "109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172})",
+      "userDataDir": "C:\\Users\\rekha\\AppData\\Local\\Temp\\scoped_dir2716_298851327"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:57784"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "16ea702fdb7a5d6b8f72254951110946"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://www.google.com",
+  "framework": "mocha",
+  "duration": 7749,
+  "suites": [
+    {
+      "title": "VolvoCars Demo Test",
+      "duration": 7598,
+      "start": "2023-01-15T09:15:19.122Z",
+      "end": "2023-01-15T09:15:26.720Z",
+      "tests": [
+        {
+          "title": "Should accept cookie popup",
+          "start": "2023-01-15T09:15:19.122Z",
+          "end": "2023-01-15T09:15:21.147Z",
+          "duration": 2025,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Should scroll to One of a million section",
+          "start": "2023-01-15T09:15:21.153Z",
+          "end": "2023-01-15T09:15:26.715Z",
+          "duration": 5562,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\rekha\\wdiopractice2\\output\\.timeline\\file-1673774121365.jpeg",
+            "C:\\Users\\rekha\\wdiopractice2\\output\\.timeline\\file-1673774126812.jpeg"
+          ]
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///C:/Users/rekha/wdiopractice2/test/specs/scroll_test.js"
+  ],
+  "state": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0
+  }
+}

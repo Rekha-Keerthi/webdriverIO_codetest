@@ -1,0 +1,25 @@
+{
+  "name": "wdiopractice2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.1.3",
+    "wdio-timeline-reporter": "^5.1.4"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.1.3",
+    "@wdio/mocha-framework": "^8.1.2",
+    "@wdio/spec-reporter": "^8.1.2",
+    "chromedriver": "^109.0.0",
+    "wdio-chromedriver-service": "^8.0.1",
+    "wdio-wait-for": "^3.0.1"
+  }
+}
